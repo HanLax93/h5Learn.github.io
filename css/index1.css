@@ -1,0 +1,82 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wrap{
+    display: flex;
+    height: 67px;
+    overflow: hidden;
+    background: #FFA500;
+}
+
+.header{
+    background: #1C1C1C;  
+    width: 220px; 
+    align-items: center;
+}
+
+.header span{
+    color: #FFA500;
+    display: inline-block;
+    padding-top: 17px;
+}
+.bloger{
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: -3px;
+}
+
+.sub_bloger{
+    font-size:small;
+    margin-left: 5px;
+}
+
+.topnav{
+    margin-left: 2px;
+    background: #1c1c1c;
+    width: 100%;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.menu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    display: block;
+    padding: 24px 15px;
+}
+
+.menu li a:hover{
+    color: #FFFAFA;
+}
+
+.move{
+    margin-left: 60px;
+    height: 4px;
+    width:60px;
+    position: absolute;
+    border-top: #FFA500 3px solid;
+    margin-top: 62px;
+}
+
+.menu li:nth-child(2):hover~ .move{
+    margin-left: 60px;
+}
+
+.menu li:nth-child(1):hover~ .move{
+    margin-left: 0px;
+}
