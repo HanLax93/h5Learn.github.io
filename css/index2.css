@@ -73,10 +73,14 @@ html,body{
     margin-top: 62px;
 }
 
+.menu li:nth-child(2):hover~ .move{
+    margin-left: 60px;
+}
+
 .menu li:nth-child(1):hover~ .move{
     margin-left: 0px;
 }
 
 .menu li:nth-child(3):hover~ .move{
-    margin-left:120px
+    margin-left: 120px;
 }
