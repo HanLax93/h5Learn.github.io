@@ -1,0 +1,66 @@
+.wrap{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 8.7%;
+    overflow: hidden;
+    background: #FFA500;
+    z-index: 100;
+}
+
+.header{
+    background: #1C1C1C;  
+    width: 15%; 
+}
+
+        .header span{
+            color: #FFA500;
+            display: inline-block;
+            padding-top: 17px;
+            padding-left: 10px;
+        }
+        .bloger{
+            font-size:x-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            word-spacing: -3px;
+        }
+
+        .sub_bloger{
+            font-size:small;
+        }
+
+.topnav{
+    margin-left: 2px;
+    background: #1c1c1c;
+    width: 85%;
+    height: 100%;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.menu{
+    height: 94.5%;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+        .menu li{
+            float: left;
+            width: 60px;
+            height: 100%;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 15px;
+            text-align: center;
+            display: block;
+            padding: 24px 15px;
+        }
+
+        .menu li a:hover{
+            color: #FFFAFA;
+        }

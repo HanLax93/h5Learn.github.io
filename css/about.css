@@ -1,0 +1,34 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.move{
+    float: bottom;
+    height: 5.5%;
+    width:60px;
+    border-top: #FFA500 3px solid;
+    margin-left: 120px;
+} 
+
+.main{
+    height: 150%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    width: 100%;
+    height:100%;
+    background:	#63a7e4;
+    position: absolute; 
+    z-index: -1;
+}

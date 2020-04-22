@@ -1,0 +1,74 @@
+@keyframes title1{
+    0% {
+        top:-10px;
+        opacity: 0.2;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 0.75;
+        top: 35%;
+    }
+}
+
+@keyframes title2{
+    0% {
+        bottom: 0px;
+        opacity: 0.2;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 0.75;
+        bottom: 27%;
+    }
+}
+
+@keyframes div_bar{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes title3{
+    from{
+        opacity: 0;
+        left:80%
+    }
+    to{
+        opacity: 1;
+        left: 20%;
+    }
+}
+
+@keyframes title4{
+    from{opacity: 0;}
+    to{opacity: 0.9;}
+}
+
+@keyframes main1_bg{
+    0%{opacity: 0.75;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0.25;}
+    100%{opacity: 0;}
+}
+
+@keyframes main1_bg1{
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
