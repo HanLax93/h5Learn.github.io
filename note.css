@@ -145,7 +145,7 @@ html,body{
     position: absolute;
     z-index: -1;
     width: 100%;
-    top: 10%;
+    top: 12%;
     background: url(../img/clouds1.png) center no-repeat;
     animation: movingclouds 9s linear infinite;
 }
