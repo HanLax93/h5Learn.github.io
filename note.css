@@ -1,0 +1,151 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.move{
+    float: bottom;
+    height: 5.5%;
+    width:60px;
+    border-top: #FFA500 3px solid;
+    margin-left: 60px;
+} 
+
+.main{
+    top:8.7%;
+    height: 91.3%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    width: 100%;
+    height:100%;
+    background:	#66CDAA;
+    position: absolute; 
+    z-index: -1;
+}
+
+/* .bg_shade{
+    background: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+} */
+
+.row{
+    position: absolute;
+    /* border: 2px black solid; */
+    height: 91.3%;
+    width: 90%;
+    top: 6%;
+    z-index: 99;
+    /* justify-content: center; */
+    padding-top: 1%;
+    padding-left: 0.5%;
+}
+
+.note_view{
+    /* border: 2px black solid; */
+    border-radius: 10px;
+    width: 26%;
+    height: 63%;
+    /* margin-top: 5px; */
+    box-shadow: #363636 10px 15px 15px;
+    /* align-items: center; */
+    background: #FFFFE0;
+    /* display: flex; */
+    overflow: hidden;
+    /* animation: note_view;
+    animation-duration: 3s; */
+    animation: note_view 8s ease-in-out infinite reverse;
+}
+
+.card_img{
+    width: 100%;
+}
+
+        .card_img img {
+            width: 100%;
+            /* border-radius: 20px; */
+        }
+
+.card_main{
+    float: right;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+        .card_main::-webkit-scrollbar {
+            display: none;
+        }
+
+        .card_main a:link{
+            text-decoration: none;
+        }
+        .card_main a:hover {
+            text-decoration: underline skyblue; 
+        }
+
+.topic_title{
+    margin-top: 0.5%;
+    margin-left: 2.5%;
+    width: 65%;
+    color: turquoise;
+    font-size: 30px;
+}
+
+/* .topic_content{
+    color: 	#696969;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 19px;
+} */
+
+#l4d2{
+    margin-left:35%;
+    margin-top: -20%;
+    height: 49%;
+    animation: note_view 8.3s ease-in-out infinite reverse;
+}
+
+#ubuntu{
+    margin-left: 68%;
+    margin-top: -30%;
+    height: 50%;
+    animation: note_view 7.5s ease-in-out infinite reverse;
+}
+
+.clouds{
+    height: 20%;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    bottom: 9%;
+    opacity: 0.7;
+    background: url(../img/clouds.png) center no-repeat;
+    animation: movingclouds 14s linear infinite;
+}
+
+.clouds1 {
+    height: 40%;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 10%;
+    background: url(../img/clouds1.png) center no-repeat;
+    animation: movingclouds 9s linear infinite;
+}
