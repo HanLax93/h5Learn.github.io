@@ -1,0 +1,509 @@
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+.move{
+    float: bottom;
+    height: 5.5%;
+    width:60px;
+    border-top: #FFA500 3px solid;
+    margin-left: 120px;
+} 
+
+.main{
+    height: 100%;
+    /* width: 100%; */
+    width: 100000px;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    width: 100%;
+    height:100%;
+    background:	#00bff3;
+    position: absolute; 
+    z-index: -1;
+}
+
+#main-shade{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    background: #363636;
+    opacity: 0.3;
+}
+
+#shade-button{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shade-button h1{
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background: #f7941d;
+    border: white solid 2px;
+    border-radius: 120px;
+    box-shadow: #f7941d 0 5px 20px;
+}
+
+#shade-button a{
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    color: white;
+}
+
+.sea {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    height: 15%;
+    background: #0072bc;
+    /* background: white; */
+}
+
+.sea_wave{
+    width: 100%;
+    background: url(../img/wave.png);
+    height: 6px;
+    position: fixed;
+    /* top: -5px' */
+    bottom: 14.8%;
+    /* animation: wave 120s infinite; */
+}
+
+.boat{
+    height: 120px;
+    width: 120px;
+    position: fixed;
+    z-index: 3;
+    bottom: 12.8%;
+    left: 25%;
+    background: url(../img/boat.png);
+    background-size: cover;
+    animation: boat 3s linear infinite;
+}
+
+.title_about{
+    position: absolute;
+    z-index: 2;
+    left: 1900px;
+    bottom: 15%;
+    width: 800px;
+    height: 400px;
+    background: url(../img/about.png);
+}
+
+.mountain{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    left:500px;
+    bottom: 13%;
+}
+
+#mountain2{
+    z-index: 4;
+    left:820px;
+}
+
+#mountain3{
+    left:1800px;
+    bottom: 10%;
+}
+
+#mountain4{
+    left: 3500px;
+    z-index: 4;
+}
+
+#mountain5{
+    left:3800px;
+    bottom: 9.8%;
+}
+
+#mountain6{
+    left:5000px;
+    bottom: 10.81%;
+}
+
+.clouds{
+    width: 100%;
+    height: 30%;
+    z-index: 2;
+    position: fixed;
+    top: 8.7%;
+    display: flex;
+    overflow: hidden;
+    /* animation: aboutCloud 8s ease-in-out infinite; */
+}
+
+        .cloud{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: 35%;
+            left: 13.1%;
+            background: url(../img/cloud.png) no-repeat;
+        }
+
+        #cloud1{
+            animation: aboutCloud 8s ease-in-out infinite;
+        }
+
+        #cloud2{
+            top: 18%;
+            left: 30%;
+            animation: aboutCloud 10s ease-in-out infinite;
+        }
+
+        #cloud3{
+            top: 12%;
+            left: 50%;
+            animation: aboutCloud 12s ease-in-out infinite;
+        }
+
+.sun{
+    width: 120px;
+    height: 120px;
+    background: url(../img/sun.png) no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    left: 21%;
+    top: 15%;
+    /* animation: aboutCloud 8s ease-in-out infinite; */
+}
+
+.birthplace{
+    position: absolute;
+    width: 800px;
+    height: 80%;
+    left: 4200px;
+    background: url(../img/rainbow.png) no-repeat;
+    background-size: 400px 200px;
+    background-position: 50% 19%;
+    display: flex;
+}
+
+    .border1{
+        width: 200px;
+        height: 400px;
+        background: url(../img/border1.png) no-repeat;
+        background-size: 200px 200px;
+        background-position: bottom;
+        position: relative;
+        z-index: 1;
+        top: 7%;
+        left:18.5%;
+        animation: boat 4s linear infinite;
+    }
+
+            .taihe{
+                position: relative;
+                top: 67%;
+                left:10px;
+                /* width:170px; */
+                /* transform: rotate(-2.5deg); */
+            }
+
+            .taihe img{
+                width: 170px;
+            }
+
+    .border2{
+        width: 200px;
+        height: 400px;
+        background: url(../img/border2.png) no-repeat;
+        background-size: 200px 200px;
+        background-position: bottom;
+        position: relative;
+        z-index: 1;
+        top: 8%;
+        left: 30%;
+        animation: boat 4.2s linear infinite;
+    }
+
+            .border2 h1{
+                margin: 0px;
+                position: relative;
+                top: 62%;
+                left: 25%;
+                color: #363636;
+            }
+
+            .border2 p{
+                margin: 0px;
+                position: relative;
+                top:75%;
+                left: 12%;
+                font-size: 26px;
+            }
+
+            .title{
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 4%;
+                width: 300px;
+                height: 100px;
+                left: 5600px;
+                top: 38%;
+                border: 8px white solid;
+            }
+            
+            .title h1{
+                letter-spacing: 20px;
+                font-family: fishFont;
+            }
+
+.primarySchool{
+    position: absolute;
+    z-index: 0;
+    left: 6100px;
+    width: 700px;
+    height: 80%;
+    bottom: 13%;
+    animation: ship 3s infinite ease-in-out reverse;
+}
+        .grass{
+            position: absolute;
+            width: 700px;
+            bottom: 0;
+        }
+
+        .banner-a,.banner-b,.banner-c,.banner-d{
+            position: relative;
+            z-index: 3;
+            left: 13%;
+            top: 8%;
+        }
+
+        .banner-top-a,.banner-top-b{
+            position: relative;
+            width: 520px;
+            height: 23px;
+            top: 0;
+            background: url(../img/banner-top-a.png);
+        }
+
+        .text-a,.text-b,.text-c{
+            position: relative;
+            font-size: 24px;
+            left: 3%;
+            color:white;
+            font-family: Comic Sans MS;
+            opacity: 0;
+        }
+
+        .text-b,.text-c{
+            font-family: fishFont;
+            font-size: 60px;
+            /* opacity: 1; */
+        }
+
+        .text-c{
+            position: relative;
+            top: 5%;
+            font-size: 30px;
+        }
+
+        .banner-line{
+            width: 440px;
+            height: 1px;
+            background: white;
+            position: relative;
+            left: 3%;
+            opacity: 0;
+        }
+
+        .banner-middle-a,.banner-middle-b,.banner-middle-c,.banner-middle-d{
+            position: relative;
+            background: #f7941d;
+            width: 480px;
+            /* height: 280px; */
+            height: 280px;
+            left: 20px;
+            /* animation: banner 3s forwards ease-in-out; */
+        }
+
+        /* .text-a,.text-b,.text-c{
+            position: relative;
+            width: 440px;
+            color: white;
+        } */
+        
+        .banner-bottom-a,.banner-bottom-b{
+            position: relative;
+            width: 480px;
+            height: 56px;
+            background: url(../img/banner-bottom-a.png);
+            left:20px;
+        }
+
+#mountain7{
+    left:7450px;
+    bottom: 10%;
+}
+
+.middleSchool{
+    position: absolute;
+    z-index: 0;
+    left: 8000px;
+    width: 700px;
+    height: 80%;
+    bottom: 13%;
+    animation: ship 3s infinite ease-in-out reverse;
+}
+
+.banner-top-b{
+    background: url(../img/banner-top-b.png);
+}
+
+.banner-middle-b,.banner-middle-d{
+    background: #f26d7d;
+}
+
+.banner-bottom-b{
+    background: url(../img/banner-bottom-b.png);
+}
+
+#mountain8{
+    left:9300px;
+    width: 380px;
+    z-index: 4;
+    bottom: 12%;
+}
+
+.highSchool{
+    position: absolute;
+    z-index: 0;
+    left: 10000px;
+    width: 700px;
+    height: 80%;
+    bottom: 13%;
+    animation: ship 3s infinite ease-in-out reverse;
+}
+
+#mountain9{
+    left: 11600px;
+    width: 270px;
+}
+
+#mountain10{
+    left: 11750px;
+    width: 270px;
+}
+
+.balloon{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    left: 11300px;
+    top: 11%;
+    animation: ship 2s infinite ease-in;
+}
+
+.college{
+    position: absolute;
+    z-index: 0;
+    left: 12100px;
+    width: 700px;
+    height: 80%;
+    bottom: 13%;
+    animation: ship 3s infinite ease-in-out reverse;
+}
+
+.banner-middle-d #bannern{
+    top: 0;
+    font-size: 27px;
+    left: 2%;
+}
+
+#mountain11{
+    left: 13100px;
+    bottom: 9.7%;
+}
+
+#interests{
+    top: 30%;
+    left: 13890px;
+}
+
+.interests1{
+    position: absolute;
+    z-index: 2;
+    left: 14500px;
+    width: 700px;
+    height: 80%;
+    bottom: 13%;
+    animation: ship 3s infinite ease-in-out reverse;
+}
+
+        .video1{
+            position: absolute;
+            z-index: 2;
+            left: 21%;
+            top: 13%;
+            width: 430px;
+            height: 230px;
+            border: 2px white solid;
+            border-radius: 10px;
+        }
+
+        .note-a{
+            position: absolute;
+            z-index: 2;
+            left: 17%;
+            top: 10%;
+            width: 500px;
+        }
+
+        .interests1 h1{
+            position: absolute;
+            z-index: 3;
+            left: 27%;
+            top: 53.9%;
+            margin: 0;
+            font-family: fishFont;
+            color: white;
+        }
+
+        .gy{
+            position: absolute;
+            z-index: 3;
+            left: 21%;
+            top: 53.3%;
+            width: 36px;
+            height: 36px;
+            border: white 1px solid;
+            border-radius: 100px;
+            animation: circle 3s infinite linear;
+        }
+
+        .bythesea{
+            position: absolute;
+            z-index: 3;
+            width: 700px;
+            bottom: 0;
+        }

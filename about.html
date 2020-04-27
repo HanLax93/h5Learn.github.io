@@ -125,10 +125,12 @@
         </div>
 
         <div class="interests1">
-            <img class="note-a" src="img/notepaper-a.png"/>
+            <img class="note-a" src="img/notepaper-a.png" />
             <iframe class="video1" src="https://player.bilibili.com/player.html?aid=83014811&bvid=BV18J411p7mY&cid=142017386&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-            <h1>相声</h1>
-            <img class="bythesea" src="img/bythesea.png"/>
+            <h1 class="xs">相声</h1>
+            <audio id="gm" src="img/gm.flac"></audio>
+            <img class="gy" onmouseover="gmplay()" onmouseout="gmpause()" src="img/gy.jpg" />
+            <img class="bythesea" src="img/bythesea.png" />
         </div>
 
         <div class="main">
@@ -137,7 +139,10 @@
             <div class="sea">
                 <div class="sea_wave"></div>
             </div>
-            <!-- <div class="bg_shade"></div> -->
+        </div>
+        <div id="main-shade"></div>
+        <div id="shade-button">
+            <a href="#"><h1 onclick="removeShade()">Start Sailing！</h1></a>
         </div>
     </body>
 </html>
