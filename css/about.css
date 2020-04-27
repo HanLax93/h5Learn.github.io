@@ -36,7 +36,7 @@ html,body{
     z-index: -1;
 }
 
-#main-shade{
+.main-shade{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -45,7 +45,7 @@ html,body{
     opacity: 0.3;
 }
 
-#shade-button{
+.shade-button{
     position: absolute;
     z-index: 99;
     width: 100%;
@@ -55,7 +55,7 @@ html,body{
     align-items: center;
 }
 
-#shade-button h1{
+.shade-button h1{
     margin: 0;
     padding-left: 20px;
     padding-bottom: 5px;
@@ -65,7 +65,7 @@ html,body{
     box-shadow: #f7941d 0 5px 20px;
 }
 
-#shade-button a{
+.shade-button a{
     text-decoration: none;
     font-family: Comic Sans MS;
     color: white;
