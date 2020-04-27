@@ -7,7 +7,7 @@ var stopWheel=false;
 
 function banneraAnimation(){
     $(".banner-a").show();
-    $(".banner-middle-a").css({animation: "banner-middle-show 3s forwards ease-in-out "});
+    $(".banner-middle-a").css({animation: "banner-middle-show 3s forwards linear"});
     $("div[id='banner']").show();
     $("div[id='banner']").css({animation:"banner-text-show forwards",animationDelay:"1.3s"});
     $("div[id='bannern']").css({animation:"banner-text-show forwards",animationDelay:"2s"});
@@ -15,7 +15,7 @@ function banneraAnimation(){
 
 function bannerbAnimation(){
     $(".banner-b").show();
-    $(".banner-middle-b").css({animation: "banner-middle-show 3s forwards ease-in-out "});
+    $(".banner-middle-b").css({animation: "banner-middle-show 3s forwards linear"});
     $("div[id='banner']").show(); 
     $("div[id='banner']").css({animation:"banner-text-show forwards",animationDelay:"1.3s"});
     $("div[id='bannern']").css({animation:"banner-text-show forwards",animationDelay:"2s"});
@@ -23,7 +23,7 @@ function bannerbAnimation(){
 
 function bannercAnimation(){
     $(".banner-c").show();
-    $(".banner-middle-c").css({animation: "banner-middle-show 3s forwards ease-in-out "});
+    $(".banner-middle-c").css({animation: "banner-middle-show 3s forwards linear"});
     $("div[id='banner']").show(); 
     $("div[id='banner']").css({animation:"banner-text-show forwards",animationDelay:"1.3s"});
     $("div[id='bannern']").css({animation:"banner-text-show forwards",animationDelay:"2s"});
@@ -31,7 +31,7 @@ function bannercAnimation(){
 
 function bannerdAnimation(){
     $(".banner-d").show();
-    $(".banner-middle-d").css({animation: "banner-middle-show 3s forwards ease-in-out "});
+    $(".banner-middle-d").css({animation: "banner-middle-show 3s forwards linear "});
     $("div[id='banner']").show(); 
     $("div[id='banner']").css({animation:"banner-text-show forwards",animationDelay:"1.3s"});
     $("div[id='bannern']").css({animation:"banner-text-show forwards",animationDelay:"2s"});
@@ -106,6 +106,19 @@ function wheelStop(){
     }
 }
 
+function gmplay(){
+    document.getElementById("gm").play();
+}
+
+function gmpause(){
+    document.getElementById("gm").pause();
+}
+
+function removeShade(){
+    document.getElementById("main-shade").remove();
+    document.getElementById("shade-button").remove();
+    $("html,body").css({position:'absolute'});
+}
 // function bannerAnimation(){
 //     $(".banner-a").show();
 //     $("div[id='banner-a']").hide();

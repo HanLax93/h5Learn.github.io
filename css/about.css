@@ -4,8 +4,10 @@
 
 html,body{
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+    position: fixed;
 }
 
 .move{
@@ -32,6 +34,41 @@ html,body{
     background:	#00bff3;
     position: absolute; 
     z-index: -1;
+}
+
+#main-shade{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    background: #363636;
+    opacity: 0.3;
+}
+
+#shade-button{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shade-button h1{
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background: #f7941d;
+    border: white solid 2px;
+    border-radius: 120px;
+    box-shadow: #f7941d 0 5px 20px;
+}
+
+#shade-button a{
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    color: white;
 }
 
 .sea {
@@ -400,6 +437,7 @@ html,body{
 .banner-middle-d #bannern{
     top: 0;
     font-size: 27px;
+    left: 2%;
 }
 
 #mountain11{
@@ -444,10 +482,23 @@ html,body{
         .interests1 h1{
             position: absolute;
             z-index: 3;
-            left: 20%;
-            bottom: 36%;
+            left: 27%;
+            top: 53.9%;
+            margin: 0;
             font-family: fishFont;
             color: white;
+        }
+
+        .gy{
+            position: absolute;
+            z-index: 3;
+            left: 21%;
+            top: 53.3%;
+            width: 36px;
+            height: 36px;
+            border: white 1px solid;
+            border-radius: 100px;
+            animation: circle 3s infinite linear;
         }
 
         .bythesea{
