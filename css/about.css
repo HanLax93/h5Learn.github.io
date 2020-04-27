@@ -7,7 +7,7 @@ html,body{
     width: 100%;
     margin: 0;
     padding: 0;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .move{
@@ -21,7 +21,7 @@ html,body{
 .main{
     height: 100%;
     /* width: 100%; */
-    width: 100000px;
+    width: 21237px;
     position: absolute;
     overflow: hidden;
     display: flex;
@@ -445,12 +445,12 @@ html,body{
     bottom: 9.7%;
 }
 
-#interests{
+#title-interests{
     top: 30%;
     left: 13890px;
 }
 
-.interests1{
+.interests-a,.interests-b,.interests-c{
     position: absolute;
     z-index: 2;
     left: 14500px;
@@ -460,7 +460,7 @@ html,body{
     animation: ship 3s infinite ease-in-out reverse;
 }
 
-        .video1{
+        .xsvideo{
             position: absolute;
             z-index: 2;
             left: 21%;
@@ -471,7 +471,7 @@ html,body{
             border-radius: 10px;
         }
 
-        .note-a{
+        .interests-note-a,.interests-note-b,.interests-note-bn,.interests-note-c{
             position: absolute;
             z-index: 2;
             left: 17%;
@@ -479,7 +479,7 @@ html,body{
             width: 500px;
         }
 
-        .interests1 h1{
+        .xs{
             position: absolute;
             z-index: 3;
             left: 27%;
@@ -501,9 +501,190 @@ html,body{
             animation: circle 3s infinite linear;
         }
 
-        .bythesea{
+        .interests-bottom{
             position: absolute;
             z-index: 3;
             width: 700px;
             bottom: 0;
         }
+
+        #mountain12{
+            left: 15700px;
+            bottom: 12%;
+        }
+
+        #mountain13{
+            left: 15500px;
+            width: 320px;
+            bottom: 9%;
+        }
+
+.interests-b{
+    left: 16300px;
+}
+
+        .interests-note-b,.interests-note-bn{
+            width: 300px;
+            border-radius: 10px;
+            left: 12%;
+        }
+
+        .interests-note-bn{
+            left: 60%;
+            width: 300px;
+        }
+
+        .cat-dog,.cat-fox{
+            position: absolute;
+            left: 21%;
+            top: 14%;
+            z-index: 4;
+            width: 220px;
+            border: white solid 2px;
+            border-radius: 20px;
+        }
+
+        .cat-fox{
+            top: 45%;
+        }
+
+        .interests-text-a,.interests-text-b,.interests-text-box-a,.interests-text-box-b{
+            left: 53.5%;
+            position: relative;
+            top: 12%;
+            z-index: 5;
+            width: 220px;
+            font-size: 18px;
+            font-family: fishFont;
+            color: balck;
+            opacity: 1;
+        }
+
+        .interests-text-a,.interests-text-b{
+            opacity: 0;
+        }
+
+        .interests-line{
+            position: relative;
+            left: 53.5%;
+            width: 220px;
+            height: 1px;
+            background: black;
+        }
+        
+.interests-c{
+    left: 18500px;
+}
+
+        .interests-note-c{
+            position: absolute;
+            left: 47%;
+            width:380px;
+        }
+
+        .gamemc{
+            position: absolute;
+            width: 290px;
+            top: 10.25%;
+            border: honeydew solid 3px;
+            border-radius: 15px;
+        }
+
+        .mcCom{
+            position: absolute;
+            width: 290px;
+            top: 50%;
+            border: honeydew solid 3px;
+            border-radius: 15px;
+        }
+
+        .interests-text-box-b{
+            top:18%;
+            left:33%;
+        }
+
+        .interests-text-b{
+            width: 325px;
+            font-size: 15pxpx;
+            line-height: 45px;
+        }
+
+.contact-box{
+    position: absolute;
+    z-index: 3;
+    top: 15%;
+    left: 20000px;
+    height: 560px;
+    width: 80%;
+}
+
+        .contact-title{
+            position: absolute;
+            top: 0;
+            left: -100px;
+            width: 1080px;
+            height: 540px;
+            background: url(../img/title-contact.png);
+        }
+
+        .contact-main{
+            position: absolute;
+            top:120px;
+            width: 940px;
+            height: 420px;
+            background: url(../img/contact-main.png);
+        }
+
+        .email-message{
+            position: absolute;
+            z-index: 99;
+            top: 157px;
+            left: 553px;
+            font-family: Comic Sans MS;
+            color: white;
+            width: 338px;
+            height: 213px;
+            border: 0;
+            background: transparent;
+            outline: none;
+            padding-left: 5px;
+            padding-top: 5px;
+            resize: none;
+        }
+
+        .contact-message{
+            position: absolute;
+            left: 551px;
+            top:156px;
+            width: 350px;
+            height: 220px;
+            background: url(../img/contact-main-hole-b.png);
+        }
+
+        .send-email{
+            position: absolute;
+            z-index: 99;
+            top:422px;
+            left:600px;
+            width: 355px;
+            height: 100px;
+            outline: none;
+        }
+
+        .email-message::-webkit-input-placeholder{
+            color:white;
+            font-size: 20px;
+            opacity: 0.8;
+        }
+
+#mountain14{
+    left: 17500px;
+    bottom: 9.9%;
+}
+
+#mountain15{
+    left: 19800px;
+    width: 400px;
+    bottom: 9.9%;
+    z-index: 4;
+}

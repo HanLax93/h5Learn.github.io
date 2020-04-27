@@ -37,6 +37,17 @@ function bannerdAnimation(){
     $("div[id='bannern']").css({animation:"banner-text-show forwards",animationDelay:"2s"});
 }
 
+function interestsTextShow(){
+    $("div[id='interests-a']").css({animation:"banner-text-show 2s forwards linear"});
+    $("div[id='interests-b']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"1s"});
+    $("div[id='interests-c']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"2s"});
+    $("div[id='interests-d']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"3s"});
+    $("div[id='interests-e']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"4s"});
+    $("div[id='interests-f']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"5s"});
+    $("div[id='interests-g']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"6s"});
+    $("div[id='interests-h']").css({animation:"banner-text-show 2s forwards linear",animationDelay:"7s"});
+}
+
 function wheelScroll(event){
 	var detail = event.wheelDelta || event.detail;
 	var moveForward = 1;
@@ -84,6 +95,19 @@ function wheelScroll(event){
     else{
         $(".banner-d").hide();
     }
+    if(disLeft>15700&&disLeft<16700){
+        interestsTextShow();
+    }
+    else{
+        $(".interests-text-a").css({animation:"none"});
+    }
+
+    if(disLeft>17960&&disLeft<19170){
+        interestsTextShow();
+    }
+    else{
+        $(".interests-text-b").css({animation:"none"});
+    }
 }
     
 function wheelMove(){
@@ -107,6 +131,7 @@ function wheelStop(){
 }
 
 function gmplay(){
+    document.getElementById("gm").volume=0.1;
     document.getElementById("gm").play();
 }
 
@@ -119,6 +144,7 @@ function removeShade(){
     document.getElementById("shade-button").remove();
     $("html,body").css({position:'absolute'});
 }
+
 // function bannerAnimation(){
 //     $(".banner-a").show();
 //     $("div[id='banner-a']").hide();
