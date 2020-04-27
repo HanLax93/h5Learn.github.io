@@ -1,0 +1,225 @@
+@font-face{
+    font-family: fishFont;
+    src: url(../img/fish.ttf);
+}
+
+@keyframes title1{
+    0% {
+        top:-10px;
+        opacity: 0.2;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 0.75;
+        top: 35%;
+    }
+}
+
+@keyframes title2{
+    0% {
+        bottom: 0px;
+        opacity: 0.2;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 0.75;
+        bottom: 27%;
+    }
+}
+
+@keyframes div_bar{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes title3{
+    from{
+        opacity: 0;
+        left:80%
+    }
+    to{
+        opacity: 1;
+        left: 20%;
+    }
+}
+
+@keyframes title4{
+    from{opacity: 0;}
+    to{opacity: 0.9;}
+}
+
+@keyframes main1_bg{
+    0%{opacity: 0.75;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0.25;}
+    100%{opacity: 0;}
+}
+
+@keyframes main1_bg1{
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+@keyframes note_view{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(70px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes movingclouds {
+    from {
+      background-position: -100%;
+    }
+    to {
+      background-position: 200%;
+    }
+}
+
+@keyframes boat{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-7deg);
+    }
+    50%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes waveForward{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+}
+
+@keyframes waveBack{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
+
+@keyframes aboutCloud{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes ship{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes banner-middle-show{
+    0%{
+        height: 0px;
+    }
+    10%{
+        height: 0px;
+    }
+    20%{
+        height: 120px;
+    }
+    40%{
+        height: 100px;
+    }
+    50%{
+        height: 180px;
+    }
+    70%{
+        height: 280px;
+    }
+    90%{
+        height: 230px;
+    }
+    100%{
+        height: 280px;
+    }
+
+}
+
+@keyframes banner-middle-hide{
+    0%{
+        height: 200px;
+    }
+    25%{
+         height: 130px;
+    }
+    50%{
+        height: 80px;
+    }
+    75%{
+        height: 20px;
+    }
+    100%{
+        height: 0px;
+    }
+}
+
+@keyframes banner-text-show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes banner-text-hide{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+

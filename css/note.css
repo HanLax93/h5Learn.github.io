@@ -81,9 +81,7 @@ html,body{
         }
 
 .card_main{
-    float: right;
     width: 100%;
-    height: 100%;
     overflow: scroll;
 }
 
@@ -145,7 +143,7 @@ html,body{
     position: absolute;
     z-index: -1;
     width: 100%;
-    top: 0;
+    top: 12%;
     background: url(../img/clouds1.png) center no-repeat;
     animation: movingclouds 9s linear infinite;
 }
