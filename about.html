@@ -7,8 +7,8 @@
         <link rel="stylesheet" type="text/css" href="css/about.css" />
         <link rel="stylesheet" type="text/css" href="css/animation.css" />
         <script src="js/jquery-3.5.0.js"></script>
-        <script src="js/about_scroll.js"></script>
-        <script src="js/about_move.js"></script>
+        <script src="js/about.js"></script>
+        <!-- <script src="js/about_move.js"></script> -->
     </head>
     <body>
         <div class=wrap>
@@ -195,7 +195,7 @@
             <div class="contact-main"></div>
             <div class="contact-message"></div>
             <form action="MAILTO:woodenhorsevirus@gmail.com" method="post" enctype="text/plain">
-                <textarea class="email-message" type="text/plain" placeholder="please input English."></textarea>
+                <textarea class="email-message" name="massage" type="text/plain" placeholder="please input English."></textarea>
                 <input class="send-email" src="img/contact-button.png" type="image" value="submit" />
             </form>
         </div>
@@ -209,9 +209,9 @@
         </div>
 
         <!-- 遮罩 -->
-        <!-- <div class="main-shade" id="main-shade"></div>
+        <div class="main-shade" id="main-shade"></div>
         <div class="shade-button" id="shade-button">
             <a href="#"><h1 onclick="removeShade()">Start Sailing！</h1></a>
-        </div> -->
+        </div>
     </body>
 </html>

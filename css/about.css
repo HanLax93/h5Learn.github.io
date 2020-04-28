@@ -1,6 +1,6 @@
-/* body::-webkit-scrollbar{
+body::-webkit-scrollbar{
     display: none;
-} */
+}
 
 html,body{
     height: 100%;
@@ -74,7 +74,7 @@ html,body{
 .sea {
     width: 100%;
     position: absolute;
-    z-index: 5;
+    z-index: 6;
     bottom: 0;
     height: 15%;
     background: #0072bc;
@@ -95,7 +95,7 @@ html,body{
     height: 120px;
     width: 120px;
     position: fixed;
-    z-index: 3;
+    z-index: 5;
     bottom: 12.8%;
     left: 25%;
     background: url(../img/boat.png);
@@ -483,7 +483,7 @@ html,body{
             position: absolute;
             z-index: 3;
             left: 27%;
-            top: 53.9%;
+            top: 52.9%;
             margin: 0;
             font-family: fishFont;
             color: white;
@@ -493,7 +493,7 @@ html,body{
             position: absolute;
             z-index: 3;
             left: 21%;
-            top: 53.3%;
+            top: 52.3%;
             width: 36px;
             height: 36px;
             border: white 1px solid;
